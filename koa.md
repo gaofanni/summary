@@ -74,4 +74,7 @@ module.exports=function bodyParser(){
 ```
 
 ## 与express的对比
-> express主要基于connect中间件框架，功能丰富，随取随用，框架自身封装了大量便利的功能，比如路由，视图处理等待。koa主要基于中间件框架，自身没有集成太多功能，大部分功能需要用户自身require中间件去解决，但是基于es6 generator特性的中间件机制，解决了长期诟病的callback hell和麻烦的错误处理的问题。
+> - express主要基于connect中间件框架，功能丰富，随取随用，**框架自身封装了大量便利的功能**，比如路由，视图处理等待。
+> - koa主要基于中间件框架，自身没有集成太多功能，大部分功能需要用户自身require中间件去解决
+> - 基于es6 generator特性的中间件机制，**解决了长期诟病的callback hell和麻烦的错误处理**的问题。
+> - express更为成熟，资料丰富
